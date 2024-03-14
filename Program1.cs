@@ -5,6 +5,10 @@ class Program{
         Console.WriteLine("Obi-Wan");
         Console.WriteLine("Kenobi");
 
+        int [] tab = {0,2,8,1,6,14,27}
+        Console.WriteLine(AverageNum(tab))
+            Console.WriteLine(HighestNum(tab))
+
 
         
 
@@ -19,13 +23,17 @@ class Program{
         }
         int result = sum/SumDidgits;
         return result;
+    }
 
-
-
-
-
-
+    static int HighestNum(int [] nums){
+        int bigNum = nums[0];
+        foreach(int number in nums){
+            if(number>bigNum)
+            bigNum = number;
+        }
+        return bigNum;
 
 
     }
+     
 }
