@@ -15,15 +15,6 @@ class Program{
     }
      static int AverageNum(int [] num){
 
-<<<<<<< HEAD
-        int wynik = 0;
-        int SumDidgits =0;
-        foreach (int number in num){
-        wynik+=number;
-        SumDidgits+=1;
-        }
-        int result = wynik/SumDidgits;
-=======
         int overall = 0;
         int SumDidgits =0;
         foreach (int number in num){
@@ -31,7 +22,6 @@ class Program{
         SumDidgits+=1;
         }
         int result = overall/SumDidgits;
->>>>>>> feature-new
         return result;
     }
 
