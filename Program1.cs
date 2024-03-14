@@ -15,13 +15,13 @@ class Program{
     }
      static int AverageNum(int [] num){
 
-        int sum = 0;
+        int overall = 0;
         int SumDidgits =0;
         foreach (int number in num){
-        sum+=number;
+        overall+=number;
         SumDidgits+=1;
         }
-        int result = sum/SumDidgits;
+        int result = overall/SumDidgits;
         return result;
     }
 
